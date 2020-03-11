@@ -1,6 +1,6 @@
-# Introduction
+# Танилцуулга
 
-RxJS is a library for composing asynchronous and event-based programs by using observable sequences. It provides one core type, the [Observable](./guide/observable), satellite types (Observer, Schedulers, Subjects) and operators inspired by [Array#extras](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.6) (map, filter, reduce, every, etc) to allow handling asynchronous events as collections.
+RxJS бол asynchronous болон event-based програмууд observable sequences ашиглан зохиох боломжтой сан юм. Энэ нь нэг үндсэн төрөлтэй, тэр нь [Observable](./guide/observable), мөн дараах дэд төрлүүдтэй (Observer, Schedulers, Subjects) мөн asynchronous event-үүдийг collections болгон хувиргах боломжтой болгосон  (map, filter, reduce, every, гэх мэт) [Array#extras](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.6)-аас санаа авч хөгжүүлсэн operator-уудтай.
 
 <span class="informal">Think of RxJS as Lodash for events.</span>
 
