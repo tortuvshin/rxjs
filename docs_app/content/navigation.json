@@ -2,19 +2,19 @@
   "TopBar": [
     {
       "url": "guide/overview",
-      "title": "Overview"
+      "title": "Үндсэн ойлголт"
     },
     {
       "url": "api",
-      "title": "Reference"
+      "title": "Зааварчилгаа"
     },
     {
       "url": "guide/v6/migration",
-      "title": "Migration"
+      "title": "Шилжих"
     },
     {
       "url": "team",
-      "title": "Team"
+      "title": "Хөгжүүлэлтийн баг"
     }
   ],
 
@@ -22,8 +22,8 @@
 	"SideNav": [
 		{
 			"url": "guide/overview",
-			"title": "Overview",
-			"tooltip": "RxJS Overview",
+			"title": "Үндсэн ойлголт",
+			"tooltip": "RxJS үндсэн ойлголтууд",
 			"children": [
 				{
 					"url": "guide/observable",
@@ -46,11 +46,11 @@
 					"title": "Scheduler"
         },
 				{
-					"title": "Testing",
+					"title": "Тэст",
 					"children": [
 						{
 							"url": "guide/testing/marble-testing",
-							"title": "Marble Testing"
+							"title": "Marble Тэст"
 						},
 						{
 							"url": "guide/testing/internal-marble-tests",
@@ -62,13 +62,13 @@
 		},
 		{
 			"url": "guide/installation",
-			"title": "Installation",
-			"tooltip": "Installation"
+			"title": "Суулгах",
+			"tooltip": "Суулгах"
 		},
     {
       "url": "api",
-      "title": "Reference",
-      "tooltip": "RxJS Reference"
+      "title": "Заавар",
+      "tooltip": "RxJS Заавар"
     },
     {
       "tooltip": "Operator Decision Tree",
@@ -76,11 +76,11 @@
       "title": "Operator Decision Tree"
     },
 		{
-			"title": "About Version 6",
+			"title": "Version 6-ийн тухай",
 			"children": [
 				{
 					"url": "guide/v6/migration",
-					"title": "Migration"
+					"title": "Шилжих"
 				},
 				{
 					"url": "guide/v6/pipeable-operators",
@@ -89,14 +89,14 @@
 				{
 					"url": "api/deprecations",
 					"title": "Deprecations",
-					"tooltip": "List of Deprecations"
+					"tooltip": "Deprecation-уудын жагсаалт"
 				}
 			]
 		},
 		{
       "url": "resources",
-      "title": "External Resources",
-      "tooltip": "External Resources"
+      "title": "Бусад мэдээлэл",
+      "tooltip": "Бусад мэдээлэл"
 		},
 		{
 			"url": "code-of-conduct",

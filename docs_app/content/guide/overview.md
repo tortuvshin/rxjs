@@ -4,9 +4,9 @@ RxJS бол asynchronous болон event-based програмууд observable 
 
 <span class="informal">Think of RxJS as Lodash for events.</span>
 
-ReactiveX combines the [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern) with the [Iterator pattern](https://en.wikipedia.org/wiki/Iterator_pattern) and [functional programming with collections](http://martinfowler.com/articles/collection-pipeline/#NestedOperatorExpressions) to fill the need for an ideal way of managing sequences of events.
+ReactiveX нь [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern), [Iterator pattern](https://en.wikipedia.org/wiki/Iterator_pattern)  [functional програмчлалын цогц шийдэл юм.](http://martinfowler.com/articles/collection-pipeline/#NestedOperatorExpressions) Энэ event-үүдийн дарааллыг удирдах хамгийн тохиромжтой шийдэл.
 
-The essential concepts in RxJS which solve async event management are:
+RxJS ашиглан async event management хийхэд зайлшгүй мэдэх шаардлагатай ойлголтууд:
 
 - **Observable:** represents the idea of an invokable collection of future values or events.
 - **Observer:** is a collection of callbacks that knows how to listen to values delivered by the Observable.
@@ -15,7 +15,7 @@ The essential concepts in RxJS which solve async event management are:
 - **Subject:** is the equivalent to an EventEmitter, and the only way of multicasting a value or event to multiple Observers.
 - **Schedulers:** are centralized dispatchers to control concurrency, allowing us to coordinate when computation happens on e.g. `setTimeout` or `requestAnimationFrame` or others.
 
-## First examples
+## Анхны жишээ
 
 Normally you register event listeners.
 
